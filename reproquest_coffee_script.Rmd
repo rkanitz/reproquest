@@ -1,0 +1,76 @@
+
+# Reproducibility Quest: The Conundrum of the Coffee Consumption
+
+Ricardo Kanitz - 2024-10-02s
+
+## Game Design: Decision Tree with No Wrong Options
+
+**Objective:** Explore a dataset on coffee consumption habits, make analytical decisions at each step, and discover various insights.
+
+**Concept:** The game is structured as a decision tree with multiple branching paths. Each challenge presents a question with 3-4 options, each leading to a different outcome. All outcomes are valid, emphasizing different analytical approaches and interpretations.
+
+## Challenges and Outcomes
+
+**Challenge 1: Dealing with Missing Data**
+
+**Question:** The dataset has some missing values for "cups per day." How do you want to handle them?
+
+*   **Option A: Remove rows with missing data.**
+    *   Outcome:  "The Complete Cases" - Analysis focuses on a smaller, complete dataset. May lose valuable information from excluded participants, but avoids potential bias from imputation.  
+*   **Option B: Impute missing values with the mean.**
+    *   Outcome: "The Average Joe Approach" -  Simpler and faster, but might not accurately reflect individual variations. Good for a general overview.
+*   **Option C: Impute missing values using a prediction model.**
+    *   Outcome: "The Predictive Power Play" - Potentially more accurate but requires building a separate prediction model. Might introduce complexity.
+
+**Challenge 2: Exploring Consumption Patterns**
+
+**Question:** You want to visualize how coffee consumption varies across different age groups. What type of plot is most suitable?
+
+*   **Option A: Scatter plot.**
+    *   Outcome: "The Individualistic Lens" -  Shows individual data points and highlights variability within age groups. Good for spotting outliers.
+*   **Option B: Box plot.**
+    *   Outcome: "The Comparative View" -  Effectively compares the distribution of coffee consumption across age groups. Useful for identifying median differences and potential outliers.
+*   **Option C: Line graph with smoothed trend.**
+    *   Outcome: "The Trend Spotter"  -  Shows the general trend of coffee consumption across age groups. Might oversimplify individual variations.
+
+**Challenge 3:  Identifying Coffee Connoisseurs**
+
+**Question:** You want to identify a group of coffee drinkers who are particularly knowledgeable and passionate about coffee. How do you approach this?
+
+*   **Option A: Use the self-reported "coffee expertise" level.**
+    *   Outcome: "The Self-Proclaimed Experts" -  Relies on subjective self-assessment. Simple and direct, but might not accurately reflect actual expertise.
+*   **Option B: Create a "connoisseur score" based on multiple factors.**
+    *   Outcome: "The Multi-Factor Marvel" - Combines various factors (e.g., brewing method, coffee type, spending, knowledge of coffee origins) to create a more objective measure. More complex but potentially more accurate.
+*   **Option C: Focus on those who spend the most on coffee.**
+    *   Outcome: "The Big Spenders" -  Assumes that higher spending reflects greater interest and knowledge.  Might miss those who are passionate but budget-conscious.
+
+**Challenge 4: Segmenting Coffee Drinkers**
+
+**Question:** You want to segment coffee drinkers into distinct groups based on their habits and preferences. Which clustering method do you choose?
+
+*   **Option A: K-means clustering.**
+    *   Outcome: "The Clear-Cut Clusters"  -  Creates distinct, non-overlapping clusters.  Easier to interpret, but might oversimplify the nuances of coffee preferences.
+*   **Option B: Hierarchical clustering.**
+    *   Outcome: "The Nuanced Network" -  Reveals hierarchical relationships between coffee drinkers.  Captures more complexity but can be harder to visualize and interpret.
+
+**Challenge 5:  Analyzing Brewing Method Preferences**
+
+**Question:** You want to understand how brewing method preferences vary across different regions. What analysis do you perform?
+
+*   **Option A: Compare the proportions of each brewing method in each region.**
+    *   Outcome: "The Regional Breakdown" - Provides a simple comparison of brewing method popularity across regions. Easy to understand, but might overlook other factors.
+*   **Option B:  Conduct a statistical test to see if the differences are significant.**
+    *   Outcome: "The Statistical Significance Seeker" -  Adds statistical rigor and helps determine if observed differences are likely due to chance.  Requires understanding of statistical tests.
+*   **Option C: Visualize the data on a map.**
+    *   Outcome: "The Geographic Perspective" -  Creates a visual representation of brewing method preferences across regions.  Easy to grasp and can reveal spatial patterns.
+
+**Challenge 6: Communicating Your Findings**
+
+**Question:**  You've discovered that people who drink coffee primarily for the "energy boost" tend to prefer stronger roasts. How do you present this finding?
+
+*   **Option A: Write a concise summary of the key insight.**
+    *   Outcome: "The Straightforward Summary" -  Clear and to the point, but might not be the most engaging.
+*   **Option B: Create an infographic with visuals and statistics.**
+    *   Outcome: "The Visual Storyteller" - More visually appealing and easier to understand. Requires design skills.
+*   **Option C: Craft a blog post with a relatable story and personal anecdotes.**
+    *   Outcome: "The Engaging Narrative" - Connects the findings to everyday experiences and makes them more relatable. Requires strong writing skills.
