@@ -1,0 +1,301 @@
+age,gender,location,cups_per_day,brewing_method,coffee_type,spend_per_week,roast_preference,milk_preference,sugar_preference,main_reason,expertise_level
+47,Male,Urban,2.0,Pour over,Latte,,Light,Alternative milk,A lot,Taste,Advanced
+37,Male,Urban,4.0,Other,Cappuccino,44.86,Medium,Alternative milk,A lot,Social habit,Expert
+49,Female,Suburban,1.0,French press,Black,10.79,Medium,Cream,Moderate,Social habit,Expert
+62,Female,Urban,3.0,Drip,Americano,14.87,Medium,None,A lot,Taste,Beginner
+36,Other,Urban,3.0,Other,Americano,19.74,Medium,Cream,Moderate,Taste,Advanced
+36,Male,Urban,4.0,Instant,Mocha,23.01,Medium,Alternative milk,None,Social habit,Intermediate
+63,Male,Urban,,Other,Other,13.34,Medium,None,None,Routine/habit,Intermediate
+51,Female,Urban,3.0,Drip,Black,24.72,Medium,None,Little,Energy boost,Advanced
+32,Male,Urban,1.0,Drip,Cappuccino,15.78,Medium,Cream,None,Routine/habit,Intermediate
+48,Female,Suburban,6.0,Pod machine,Americano,19.86,Medium,Milk,Moderate,Routine/habit,Expert
+33,Female,Urban,3.0,Pod machine,Black,26.28,Light,Cream,A lot,Taste,Intermediate
+33,Male,Urban,2.0,French press,Americano,20.06,Dark,Alternative milk,Little,Energy boost,Beginner
+43,Female,Urban,0.0,Pour over,Cappuccino,16.08,Medium,Alternative milk,A lot,Routine/habit,Expert
+18,Female,Urban,3.0,French press,Americano,18.93,Dark,Alternative milk,Moderate,Taste,Expert
+18,Male,Urban,3.0,Espresso machine,Other,19.14,Medium,Alternative milk,None,Routine/habit,Expert
+31,Female,Urban,3.0,Drip,Other,16.62,Medium,Alternative milk,Little,Routine/habit,Advanced
+24,Female,Urban,0.0,Other,Mocha,17.57,Light,Milk,Moderate,Taste,Advanced
+44,Female,Urban,1.0,Instant,Mocha,44.48,Light,None,Little,Taste,Expert
+26,Male,Urban,,Drip,Americano,26.47,Dark,Cream,Little,Taste,Advanced
+18,Female,Rural,6.0,Drip,Black,17.25,Light,Cream,None,Energy boost,Intermediate
+61,Male,Urban,2.0,French press,Other,28.34,Light,Alternative milk,Moderate,Routine/habit,Advanced
+36,Male,Suburban,2.0,Instant,Black,16.93,Dark,Cream,A lot,Taste,Advanced
+41,Female,Urban,1.0,Instant,Black,35.96,Light,Alternative milk,Little,Social habit,Expert
+18,Male,Suburban,0.0,Instant,Americano,24.06,Medium,Milk,Little,Routine/habit,Beginner
+31,Male,Suburban,4.0,French press,Black,18.96,Dark,Milk,A lot,Social habit,Beginner
+41,Female,Urban,2.0,Drip,Other,25.02,Dark,None,Moderate,Energy boost,Beginner
+22,Female,Urban,5.0,French press,Cappuccino,9.12,Medium,Milk,Little,Taste,Intermediate
+45,Female,Urban,5.0,Pod machine,Mocha,11.39,Light,Milk,Little,Social habit,Advanced
+30,Female,Urban,,Pod machine,Cappuccino,11.01,Dark,None,Little,Energy boost,Beginner
+35,Male,Rural,1.0,French press,Black,21.48,Dark,Cream,Moderate,Taste,Expert
+30,Male,Suburban,2.0,Instant,Cappuccino,47.56,Medium,Alternative milk,Moderate,Social habit,Beginner
+67,Male,Rural,5.0,Drip,Other,61.03,Medium,Alternative milk,A lot,Social habit,Beginner
+39,Female,Urban,2.0,French press,Other,27.52,Light,Cream,Moderate,Energy boost,Advanced
+24,Female,Suburban,2.0,French press,Black,25.69,Dark,None,Moderate,Taste,Advanced
+52,Female,Rural,3.0,French press,Americano,8.13,Light,Cream,None,Taste,Advanced
+21,Female,Urban,2.0,Espresso machine,Cappuccino,15.25,Light,Milk,A lot,Social habit,Intermediate
+43,Male,Urban,6.0,Pod machine,Americano,13.49,Medium,None,Little,Social habit,Intermediate
+18,Female,Suburban,2.0,Other,Americano,14.66,Dark,None,Moderate,Social habit,Beginner
+20,Male,Urban,2.0,Instant,Latte,,Dark,None,Little,Taste,Advanced
+42,Female,Suburban,2.0,Pour over,Black,15.79,Dark,Alternative milk,Little,Energy boost,Beginner
+51,Male,Urban,5.0,Other,Mocha,7.43,Medium,Cream,None,Energy boost,Expert
+42,Female,Suburban,4.0,Instant,Other,29.07,Medium,None,Moderate,Taste,Expert
+38,Male,Urban,8.0,Pour over,Other,11.7,Medium,None,A lot,Routine/habit,Advanced
+35,Male,Urban,3.0,Espresso machine,Black,22.54,Medium,None,Moderate,Energy boost,Advanced
+18,Male,Urban,2.0,French press,Mocha,56.42,Medium,Cream,Little,Social habit,Expert
+29,Female,Suburban,3.0,Espresso machine,Other,12.63,Dark,Alternative milk,A lot,Routine/habit,Advanced
+33,Female,Suburban,1.0,Espresso machine,Black,5.64,Light,Milk,Moderate,Routine/habit,Intermediate
+55,Male,Urban,4.0,Other,Other,17.34,Dark,Alternative milk,Little,Energy boost,Intermediate
+45,Male,Urban,3.0,Drip,Americano,34.68,Light,None,Little,Routine/habit,Advanced
+18,Female,Suburban,5.0,Other,Cappuccino,53.25,Medium,Alternative milk,None,Routine/habit,Expert
+44,Male,Urban,,Pod machine,Cappuccino,10.82,Light,Alternative milk,None,Energy boost,Beginner
+34,Female,Suburban,0.0,Pour over,Other,25.64,Dark,Milk,None,Energy boost,Advanced
+29,Female,Urban,2.0,French press,Latte,15.85,Dark,Cream,Little,Routine/habit,Advanced
+49,Male,Urban,3.0,Other,Mocha,18.97,Light,Cream,Moderate,Social habit,Beginner
+55,Male,Urban,4.0,Pour over,Mocha,75.03,Medium,Alternative milk,None,Taste,Advanced
+53,Other,Urban,1.0,Instant,Mocha,,Medium,Alternative milk,Moderate,Routine/habit,Beginner
+27,Male,Suburban,0.0,Pour over,Americano,22.71,Dark,Cream,None,Routine/habit,Expert
+35,Male,Urban,4.0,Instant,Mocha,25.27,Light,Cream,A lot,Social habit,Intermediate
+44,Female,Urban,3.0,Other,Cappuccino,34.42,Medium,Milk,A lot,Routine/habit,Expert
+54,Female,Suburban,3.0,Pod machine,Americano,21.0,Medium,None,None,Routine/habit,Intermediate
+32,Other,Urban,1.0,Other,Black,23.33,Dark,Alternative milk,Little,Taste,Beginner
+37,Female,Urban,3.0,Instant,Mocha,16.44,Medium,Cream,None,Taste,Intermediate
+23,Male,Rural,4.0,Pour over,Mocha,22.88,Light,Alternative milk,None,Taste,Expert
+22,Male,Suburban,4.0,Pour over,Black,16.85,Dark,Alternative milk,Little,Energy boost,Intermediate
+52,Female,Urban,1.0,Instant,Mocha,27.29,Dark,Cream,A lot,Energy boost,Beginner
+60,Female,Rural,5.0,Espresso machine,Black,16.63,Light,Milk,Moderate,Taste,Intermediate
+38,Male,Suburban,6.0,Pod machine,Americano,24.15,Dark,Alternative milk,None,Taste,Advanced
+55,Female,Urban,0.0,Drip,Cappuccino,19.71,Medium,Milk,Little,Energy boost,Expert
+45,Male,Urban,4.0,French press,Black,35.12,Medium,Cream,None,Social habit,Advanced
+30,Female,Suburban,2.0,Pour over,Latte,19.49,Light,None,Little,Routine/habit,Beginner
+45,Male,Suburban,2.0,French press,Black,8.24,Medium,None,Moderate,Routine/habit,Intermediate
+63,Male,Urban,3.0,Drip,Mocha,37.59,Light,Alternative milk,Moderate,Taste,Advanced
+39,Male,Suburban,1.0,Other,Americano,12.72,Light,Cream,A lot,Social habit,Advanced
+63,Male,Suburban,0.0,French press,Other,14.42,Medium,Milk,Little,Energy boost,Intermediate
+18,Male,Urban,3.0,Drip,Americano,14.85,Light,Alternative milk,Little,Taste,Intermediate
+52,Female,Urban,3.0,Instant,Other,39.76,Medium,Cream,A lot,Social habit,Expert
+41,Female,Urban,1.0,Espresso machine,Black,6.88,Dark,Cream,A lot,Social habit,Advanced
+35,Female,Suburban,2.0,Pour over,Cappuccino,96.02,Dark,Milk,Little,Social habit,Advanced
+41,Female,Urban,4.0,Drip,Latte,33.91,Light,Alternative milk,A lot,Energy boost,Beginner
+18,Male,Urban,2.0,French press,Americano,22.36,Medium,Cream,Moderate,Energy boost,Expert
+36,Male,Suburban,1.0,Pour over,Mocha,19.46,Medium,Cream,None,Routine/habit,Beginner
+45,Female,Suburban,0.0,Espresso machine,Other,23.07,Dark,Cream,Moderate,Routine/habit,Advanced
+62,Male,Urban,1.0,Instant,Mocha,25.95,Dark,Milk,A lot,Social habit,Beginner
+32,Female,Suburban,3.0,Other,Cappuccino,27.61,Medium,Alternative milk,Little,Social habit,Advanced
+27,Male,Urban,1.0,Pour over,Other,26.4,Light,Alternative milk,Little,Energy boost,Advanced
+32,Female,Suburban,2.0,Other,Americano,20.92,Dark,Alternative milk,Moderate,Routine/habit,Beginner
+53,Male,Urban,1.0,Drip,Black,18.12,Light,Alternative milk,Little,Social habit,Beginner
+44,Female,Urban,5.0,Espresso machine,Mocha,18.54,Light,None,A lot,Routine/habit,Intermediate
+32,Female,Suburban,1.0,French press,Cappuccino,18.14,Dark,None,Moderate,Routine/habit,Intermediate
+47,Other,Urban,5.0,Espresso machine,Americano,35.26,Light,Alternative milk,Little,Social habit,Intermediate
+41,Male,Urban,1.0,Espresso machine,Americano,26.91,Light,Milk,None,Energy boost,Advanced
+54,Female,Suburban,0.0,Pod machine,Americano,4.6,Medium,None,None,Social habit,Beginner
+29,Female,Suburban,1.0,Espresso machine,Americano,27.76,Light,Cream,A lot,Social habit,Expert
+35,Female,Suburban,3.0,Espresso machine,Other,22.05,Medium,None,Little,Routine/habit,Advanced
+34,Female,Suburban,3.0,Pour over,Americano,,Dark,Cream,A lot,Social habit,Expert
+18,Female,Urban,5.0,French press,Mocha,16.47,Dark,Alternative milk,Moderate,Energy boost,Beginner
+44,Male,Urban,,Pour over,Cappuccino,35.09,Medium,None,None,Social habit,Advanced
+43,Female,Urban,0.0,Pour over,Other,32.12,Dark,Milk,Moderate,Energy boost,Expert
+40,Female,Urban,3.0,Drip,Americano,13.59,Light,None,Little,Energy boost,Expert
+36,Female,Rural,3.0,Pour over,Latte,24.51,Light,None,A lot,Routine/habit,Intermediate
+18,Male,Urban,1.0,Pod machine,Latte,12.3,Light,None,A lot,Taste,Intermediate
+33,Male,Urban,4.0,Pod machine,Cappuccino,10.03,Dark,Alternative milk,A lot,Taste,Intermediate
+34,Female,Urban,4.0,Other,Black,14.62,Light,Milk,Moderate,Routine/habit,Advanced
+27,Female,Rural,3.0,Drip,Black,30.78,Dark,None,None,Social habit,Beginner
+37,Male,Urban,2.0,Other,Other,32.21,Light,Milk,Moderate,Routine/habit,Beginner
+46,Female,Urban,2.0,Other,Other,25.85,Medium,Alternative milk,Moderate,Energy boost,Intermediate
+68,Male,Urban,3.0,Instant,Other,28.74,Dark,Cream,Little,Taste,Intermediate
+42,Male,Suburban,3.0,French press,Black,25.89,Dark,None,Little,Routine/habit,Intermediate
+43,Male,Urban,2.0,French press,Latte,14.51,Light,Milk,Little,Social habit,Expert
+38,Male,Suburban,3.0,Pour over,Black,24.82,Dark,Milk,None,Routine/habit,Intermediate
+18,Female,Rural,2.0,Pour over,Mocha,29.84,Dark,Alternative milk,None,Taste,Expert
+39,Male,Urban,3.0,Instant,Americano,29.16,Medium,None,Little,Routine/habit,Beginner
+40,Female,Suburban,2.0,Pour over,Other,36.24,Medium,Cream,Little,Routine/habit,Advanced
+75,Other,Rural,3.0,French press,Latte,28.5,Light,Milk,None,Taste,Advanced
+37,Female,Suburban,2.0,Other,Cappuccino,23.84,Medium,None,A lot,Energy boost,Advanced
+44,Female,Urban,0.0,Espresso machine,Cappuccino,34.15,Light,Cream,None,Energy boost,Advanced
+39,Male,Urban,,Pod machine,Americano,19.74,Light,Milk,None,Taste,Expert
+22,Female,Suburban,,Espresso machine,Latte,12.87,Light,Milk,None,Routine/habit,Expert
+57,Female,Urban,1.0,Espresso machine,Black,18.43,Dark,Cream,Little,Taste,Intermediate
+51,Male,Suburban,2.0,French press,Black,13.78,Medium,Cream,A lot,Energy boost,Expert
+51,Female,Rural,1.0,Espresso machine,Mocha,14.27,Light,Alternative milk,None,Social habit,Intermediate
+26,Female,Rural,,Instant,Mocha,18.61,Medium,None,Little,Routine/habit,Intermediate
+61,Female,Urban,3.0,Drip,Black,13.46,Light,None,Moderate,Energy boost,Advanced
+18,Female,Urban,,Pour over,Cappuccino,17.15,Medium,Alternative milk,Moderate,Routine/habit,Expert
+48,Female,Rural,2.0,Drip,Other,7.76,Medium,Milk,None,Taste,Expert
+72,Male,Suburban,2.0,Other,Cappuccino,22.25,Light,Cream,Moderate,Social habit,Intermediate
+25,Female,Urban,2.0,Pod machine,Mocha,20.01,Dark,Cream,A lot,Taste,Intermediate
+31,Female,Rural,3.0,Pour over,Americano,13.29,Medium,Cream,Moderate,Social habit,Beginner
+41,Male,Suburban,7.0,Espresso machine,Black,27.81,Dark,Milk,Moderate,Routine/habit,Beginner
+32,Male,Urban,0.0,Pod machine,Mocha,,Dark,Cream,A lot,Routine/habit,Intermediate
+18,Male,Urban,4.0,Pour over,Mocha,,Light,Cream,None,Taste,Beginner
+41,Female,Urban,2.0,Instant,Other,13.66,Light,Alternative milk,None,Social habit,Beginner
+24,Other,Urban,2.0,Instant,Black,13.61,Light,Milk,A lot,Social habit,Intermediate
+47,Male,Urban,7.0,Instant,Other,12.5,Medium,None,A lot,Routine/habit,Intermediate
+26,Female,Suburban,5.0,Instant,Black,30.28,Light,Alternative milk,A lot,Taste,Expert
+63,Male,Urban,2.0,Espresso machine,Other,18.15,Light,Alternative milk,Moderate,Social habit,Intermediate
+28,Female,Urban,0.0,Drip,Cappuccino,17.52,Medium,None,A lot,Routine/habit,Intermediate
+35,Female,Urban,2.0,Pour over,Americano,7.34,Medium,Alternative milk,Little,Energy boost,Advanced
+52,Female,Urban,3.0,Espresso machine,Americano,27.48,Light,Milk,Moderate,Taste,Expert
+21,Male,Rural,2.0,Instant,Black,10.76,Light,Cream,None,Energy boost,Expert
+43,Male,Urban,4.0,Other,Latte,20.61,Light,Milk,None,Taste,Expert
+59,Male,Urban,,Drip,Mocha,22.98,Light,None,None,Routine/habit,Advanced
+18,Male,Suburban,2.0,Other,Mocha,39.49,Dark,None,Moderate,Social habit,Intermediate
+42,Female,Urban,6.0,Pod machine,Black,10.39,Dark,Alternative milk,Little,Social habit,Expert
+43,Female,Urban,0.0,Other,Other,4.42,Light,Milk,A lot,Social habit,Expert
+51,Other,Urban,1.0,Pod machine,Latte,21.93,Dark,Milk,A lot,Taste,Beginner
+21,Other,Urban,4.0,Pod machine,Cappuccino,49.2,Medium,None,None,Routine/habit,Expert
+20,Female,Urban,2.0,Instant,Other,37.16,Dark,Milk,None,Energy boost,Intermediate
+47,Female,Urban,2.0,Pod machine,Other,22.21,Dark,None,Moderate,Routine/habit,Intermediate
+44,Female,Urban,3.0,French press,Black,15.64,Light,Milk,Little,Energy boost,Beginner
+43,Female,Rural,3.0,Pour over,Black,29.94,Dark,Milk,A lot,Taste,Expert
+45,Male,Urban,1.0,Pour over,Mocha,12.29,Dark,Milk,Moderate,Taste,Expert
+29,Male,Urban,,Instant,Black,25.38,Dark,None,A lot,Energy boost,Expert
+43,Male,Suburban,1.0,French press,Black,25.75,Dark,Alternative milk,None,Energy boost,Advanced
+44,Female,Urban,3.0,Other,Black,33.98,Medium,Milk,A lot,Energy boost,Expert
+29,Female,Suburban,2.0,Espresso machine,Mocha,,Light,None,Little,Routine/habit,Intermediate
+67,Male,Urban,5.0,Other,Cappuccino,24.34,Light,None,Little,Energy boost,Intermediate
+47,Female,Rural,2.0,Espresso machine,Cappuccino,15.51,Medium,Milk,None,Taste,Advanced
+22,Female,Urban,3.0,Pod machine,Black,19.75,Dark,Milk,Little,Taste,Advanced
+49,Male,Urban,3.0,Drip,Mocha,8.26,Medium,Alternative milk,Little,Social habit,Expert
+25,Male,Urban,1.0,Espresso machine,Cappuccino,14.13,Dark,None,Moderate,Energy boost,Beginner
+51,Female,Rural,3.0,Drip,Other,16.3,Medium,None,A lot,Routine/habit,Advanced
+57,Female,Urban,3.0,Pour over,Cappuccino,15.39,Light,Cream,None,Routine/habit,Advanced
+27,Female,Urban,0.0,Drip,Cappuccino,21.58,Light,None,None,Routine/habit,Expert
+54,Female,Urban,3.0,Pour over,Mocha,13.26,Light,Alternative milk,None,Social habit,Expert
+46,Female,Suburban,4.0,French press,Other,35.03,Dark,Cream,None,Taste,Advanced
+52,Female,Urban,4.0,French press,Mocha,20.0,Dark,Cream,None,Routine/habit,Beginner
+68,Female,Suburban,2.0,Instant,Black,,Medium,Cream,Little,Taste,Advanced
+36,Female,Urban,3.0,Instant,Americano,16.98,Medium,Milk,Moderate,Social habit,Expert
+28,Male,Urban,1.0,Pod machine,Cappuccino,21.61,Light,Milk,None,Energy boost,Expert
+26,Male,Urban,1.0,Espresso machine,Americano,30.21,Dark,None,Moderate,Energy boost,Advanced
+27,Male,Urban,1.0,Pod machine,Mocha,12.96,Medium,Cream,Moderate,Energy boost,Beginner
+38,Female,Urban,0.0,Pour over,Mocha,14.39,Dark,Alternative milk,Little,Routine/habit,Advanced
+45,Female,Urban,1.0,Pod machine,Mocha,17.18,Dark,Milk,None,Energy boost,Advanced
+44,Female,Suburban,4.0,Drip,Americano,10.2,Light,Alternative milk,Little,Routine/habit,Expert
+52,Male,Urban,2.0,Pour over,Mocha,13.28,Light,Alternative milk,None,Social habit,Beginner
+40,Male,Urban,6.0,Instant,Black,15.76,Dark,Milk,Little,Social habit,Intermediate
+61,Male,Urban,3.0,French press,Mocha,30.97,Dark,Milk,Moderate,Routine/habit,Beginner
+36,Male,Urban,2.0,Instant,Latte,22.81,Dark,Milk,None,Taste,Advanced
+75,Female,Urban,3.0,Espresso machine,Americano,,Dark,Milk,A lot,Energy boost,Advanced
+49,Male,Urban,,Pour over,Latte,30.61,Light,Cream,Moderate,Energy boost,Advanced
+27,Male,Urban,3.0,Pour over,Mocha,18.67,Medium,Cream,A lot,Energy boost,Beginner
+23,Female,Suburban,3.0,Drip,Black,,Light,Cream,Moderate,Routine/habit,Expert
+47,Male,Rural,2.0,Espresso machine,Cappuccino,18.99,Medium,Cream,Little,Social habit,Advanced
+36,Female,Urban,2.0,French press,Other,,Dark,None,None,Energy boost,Advanced
+50,Female,Urban,1.0,Other,Other,14.94,Medium,Cream,Moderate,Social habit,Beginner
+47,Male,Suburban,1.0,Pour over,Mocha,5.91,Light,Milk,Little,Energy boost,Intermediate
+38,Female,Urban,3.0,Pour over,Black,18.7,Light,Alternative milk,None,Energy boost,Intermediate
+27,Female,Urban,4.0,Drip,Americano,40.74,Dark,Cream,None,Routine/habit,Expert
+18,Female,Urban,4.0,Pod machine,Latte,31.78,Light,None,Moderate,Taste,Expert
+33,Male,Suburban,6.0,French press,Latte,32.41,Dark,Milk,None,Routine/habit,Advanced
+52,Female,Suburban,0.0,Instant,Latte,37.11,Light,Alternative milk,Moderate,Energy boost,Beginner
+43,Female,Urban,1.0,Espresso machine,Americano,20.91,Light,Alternative milk,None,Energy boost,Advanced
+21,Male,Urban,5.0,Pour over,Other,22.07,Dark,Cream,A lot,Taste,Expert
+42,Male,Urban,5.0,Pour over,Black,,Medium,Alternative milk,Little,Social habit,Beginner
+45,Other,Suburban,2.0,Instant,Americano,17.08,Light,Cream,A lot,Social habit,Beginner
+26,Female,Urban,1.0,French press,Latte,27.21,Medium,Cream,Moderate,Energy boost,Expert
+42,Male,Urban,0.0,Pod machine,Mocha,36.51,Light,Milk,A lot,Social habit,Intermediate
+40,Female,Suburban,2.0,Pour over,Cappuccino,18.65,Light,Milk,Moderate,Energy boost,Intermediate
+22,Male,Urban,3.0,French press,Americano,15.97,Light,None,None,Taste,Beginner
+45,Male,Suburban,1.0,Instant,Americano,,Light,Milk,None,Taste,Advanced
+48,Male,Urban,,Drip,Black,27.01,Medium,Milk,Moderate,Energy boost,Intermediate
+56,Male,Urban,1.0,Pod machine,Black,9.72,Medium,Cream,A lot,Taste,Advanced
+55,Male,Urban,2.0,Espresso machine,Americano,6.34,Light,Milk,None,Routine/habit,Intermediate
+19,Male,Suburban,1.0,Pour over,Latte,15.19,Light,Cream,Little,Routine/habit,Intermediate
+25,Female,Suburban,3.0,French press,Cappuccino,10.86,Medium,Cream,None,Taste,Advanced
+47,Male,Suburban,1.0,Drip,Black,15.51,Dark,Milk,Little,Energy boost,Expert
+47,Male,Urban,1.0,Espresso machine,Latte,18.58,Dark,None,A lot,Energy boost,Intermediate
+47,Female,Suburban,0.0,Other,Mocha,15.94,Medium,None,Little,Taste,Intermediate
+75,Male,Urban,4.0,French press,Black,41.35,Light,Alternative milk,Little,Social habit,Advanced
+48,Female,Urban,3.0,French press,Latte,,Light,Alternative milk,Little,Routine/habit,Expert
+57,Male,Suburban,2.0,Espresso machine,Latte,23.24,Dark,Milk,Little,Social habit,Intermediate
+54,Male,Urban,4.0,Drip,Cappuccino,27.3,Dark,None,None,Energy boost,Intermediate
+49,Male,Urban,0.0,Other,Cappuccino,11.32,Medium,Cream,Little,Energy boost,Expert
+35,Male,Urban,2.0,Instant,Mocha,33.63,Dark,Alternative milk,None,Social habit,Intermediate
+51,Male,Urban,2.0,Drip,Latte,19.26,Medium,Cream,Little,Taste,Expert
+28,Male,Urban,2.0,Pod machine,Other,27.97,Dark,Alternative milk,Moderate,Social habit,Expert
+36,Male,Urban,5.0,Pour over,Latte,11.7,Dark,Milk,A lot,Social habit,Advanced
+32,Male,Urban,3.0,Espresso machine,Cappuccino,9.2,Dark,None,Little,Routine/habit,Beginner
+41,Male,Suburban,1.0,Instant,Other,30.1,Light,Alternative milk,Moderate,Routine/habit,Expert
+74,Male,Suburban,3.0,Other,Black,24.14,Light,None,Little,Social habit,Advanced
+18,Male,Urban,6.0,Espresso machine,Black,12.74,Light,Cream,Little,Social habit,Beginner
+50,Female,Urban,2.0,Espresso machine,Americano,12.95,Dark,Milk,Little,Energy boost,Intermediate
+18,Female,Urban,1.0,Drip,Cappuccino,35.11,Medium,None,Moderate,Routine/habit,Beginner
+32,Male,Urban,6.0,Pour over,Americano,11.03,Medium,Milk,A lot,Routine/habit,Expert
+56,Female,Urban,0.0,Pod machine,Other,45.47,Medium,None,Moderate,Energy boost,Expert
+40,Female,Suburban,1.0,French press,Cappuccino,12.75,Medium,Cream,A lot,Taste,Expert
+23,Male,Urban,3.0,French press,Mocha,27.52,Light,Cream,Little,Routine/habit,Expert
+29,Female,Urban,1.0,Espresso machine,Latte,16.97,Light,Milk,None,Routine/habit,Expert
+50,Female,Urban,0.0,Pour over,Mocha,27.04,Dark,Cream,Little,Taste,Advanced
+29,Male,Urban,0.0,Other,Other,15.24,Dark,Alternative milk,A lot,Routine/habit,Expert
+43,Male,Rural,0.0,Other,Cappuccino,18.44,Medium,None,Moderate,Routine/habit,Advanced
+40,Female,Suburban,3.0,Instant,Other,20.41,Light,Cream,Little,Taste,Intermediate
+30,Female,Urban,3.0,Drip,Latte,12.12,Medium,Alternative milk,Moderate,Taste,Expert
+72,Male,Suburban,1.0,Pour over,Black,28.97,Dark,Milk,Moderate,Social habit,Expert
+49,Male,Urban,3.0,Pour over,Black,15.47,Dark,Alternative milk,Moderate,Energy boost,Beginner
+18,Male,Suburban,1.0,Drip,Other,17.84,Medium,Milk,Little,Energy boost,Intermediate
+42,Female,Suburban,3.0,Other,Americano,12.16,Dark,Milk,Moderate,Taste,Expert
+30,Female,Urban,1.0,Other,Cappuccino,5.55,Medium,None,Moderate,Taste,Expert
+52,Male,Urban,4.0,Other,Cappuccino,18.18,Light,None,Little,Routine/habit,Intermediate
+28,Male,Urban,5.0,Espresso machine,Black,66.82,Medium,Alternative milk,Moderate,Social habit,Advanced
+38,Female,Urban,3.0,Pour over,Mocha,29.61,Light,None,Little,Social habit,Expert
+47,Male,Suburban,2.0,French press,Latte,19.81,Light,None,A lot,Taste,Beginner
+52,Male,Urban,2.0,Drip,Mocha,17.54,Dark,None,A lot,Routine/habit,Expert
+21,Female,Urban,3.0,Other,Mocha,20.23,Dark,Alternative milk,A lot,Routine/habit,Beginner
+34,Female,Suburban,3.0,Instant,Other,26.29,Dark,Cream,Moderate,Energy boost,Beginner
+32,Female,Rural,6.0,Other,Black,11.08,Medium,None,None,Energy boost,Expert
+30,Female,Urban,4.0,Other,Black,34.91,Medium,None,None,Routine/habit,Expert
+66,Male,Urban,3.0,Pod machine,Black,28.6,Dark,Alternative milk,Moderate,Energy boost,Beginner
+46,Male,Urban,1.0,Espresso machine,Other,28.64,Medium,Cream,None,Taste,Intermediate
+21,Female,Urban,,Drip,Americano,24.9,Dark,None,Little,Routine/habit,Intermediate
+53,Male,Rural,5.0,Pod machine,Mocha,20.2,Medium,Milk,None,Energy boost,Expert
+71,Male,Urban,5.0,Pod machine,Other,28.0,Light,Alternative milk,Moderate,Social habit,Advanced
+55,Male,Urban,1.0,Instant,Cappuccino,26.89,Light,None,Moderate,Routine/habit,Intermediate
+18,Male,Urban,3.0,Pour over,Latte,16.76,Dark,None,Little,Routine/habit,Expert
+32,Male,Urban,2.0,Instant,Americano,15.01,Medium,Milk,A lot,Social habit,Intermediate
+59,Male,Suburban,3.0,Pour over,Cappuccino,21.04,Medium,Milk,Moderate,Taste,Advanced
+29,Male,Suburban,3.0,Pour over,Mocha,43.39,Light,Alternative milk,Little,Social habit,Expert
+46,Male,Urban,1.0,Drip,Black,10.76,Light,Alternative milk,None,Routine/habit,Advanced
+51,Female,Urban,3.0,Other,Mocha,9.6,Dark,Milk,None,Taste,Expert
+26,Female,Urban,,Drip,Other,21.72,Light,Alternative milk,Little,Energy boost,Advanced
+39,Female,Rural,4.0,Espresso machine,Latte,20.52,Dark,Milk,Little,Energy boost,Intermediate
+18,Female,Suburban,4.0,Pour over,Other,21.81,Light,None,Moderate,Energy boost,Intermediate
+24,Female,Urban,1.0,Pod machine,Americano,22.59,Light,Milk,None,Routine/habit,Advanced
+36,Male,Suburban,3.0,Other,Americano,17.89,Medium,Milk,Little,Social habit,Advanced
+21,Female,Suburban,3.0,French press,Latte,42.13,Light,Cream,None,Taste,Advanced
+64,Female,Urban,4.0,Espresso machine,Cappuccino,8.98,Light,Milk,Little,Energy boost,Expert
+18,Female,Rural,4.0,Drip,Cappuccino,13.22,Dark,Milk,None,Taste,Intermediate
+33,Male,Urban,0.0,Instant,Americano,18.99,Light,Cream,A lot,Routine/habit,Expert
+41,Male,Urban,4.0,Espresso machine,Americano,8.79,Dark,Alternative milk,Moderate,Energy boost,Intermediate
+61,Male,Urban,1.0,Espresso machine,Black,18.32,Light,Cream,None,Routine/habit,Beginner
+18,Male,Urban,2.0,Other,Cappuccino,45.9,Light,None,A lot,Social habit,Expert
+57,Female,Urban,5.0,Espresso machine,Latte,20.21,Dark,Cream,None,Routine/habit,Intermediate
+40,Female,Suburban,3.0,Espresso machine,Cappuccino,22.45,Medium,None,None,Routine/habit,Intermediate
+25,Male,Urban,3.0,French press,Black,10.65,Dark,Alternative milk,A lot,Social habit,Expert
+46,Other,Suburban,2.0,Instant,Other,14.7,Dark,Cream,None,Taste,Expert
+42,Female,Urban,1.0,Instant,Americano,16.58,Dark,Cream,None,Social habit,Intermediate
+30,Male,Urban,0.0,Instant,Americano,17.06,Medium,Alternative milk,Moderate,Social habit,Expert
+41,Male,Urban,3.0,Pour over,Black,37.96,Light,None,A lot,Routine/habit,Advanced
+34,Male,Urban,4.0,Pod machine,Latte,26.43,Dark,Cream,A lot,Taste,Expert
+41,Male,Suburban,2.0,Instant,Americano,11.47,Dark,None,Little,Energy boost,Expert
+49,Male,Urban,1.0,Espresso machine,Mocha,22.62,Medium,Cream,None,Social habit,Expert
+63,Male,Urban,0.0,Espresso machine,Americano,25.66,Dark,Milk,Moderate,Taste,Intermediate
+21,Male,Urban,5.0,Instant,Mocha,35.37,Light,Cream,None,Social habit,Advanced
+71,Male,Suburban,2.0,Other,Black,44.08,Medium,Alternative milk,None,Social habit,Beginner
+18,Female,Rural,2.0,Instant,Black,12.04,Light,Alternative milk,Little,Social habit,Beginner
+37,Male,Suburban,0.0,Espresso machine,Americano,13.33,Light,None,None,Social habit,Advanced
+48,Female,Urban,1.0,Pour over,Cappuccino,10.66,Medium,Cream,Moderate,Routine/habit,Advanced
+44,Male,Urban,2.0,Drip,Mocha,17.79,Dark,None,Moderate,Taste,Advanced
+30,Other,Urban,3.0,Drip,Latte,25.25,Light,None,Little,Taste,Intermediate
+36,Male,Urban,0.0,Instant,Americano,32.77,Light,Milk,None,Taste,Beginner
+32,Male,Urban,1.0,French press,Latte,19.25,Light,Milk,Moderate,Social habit,Advanced
+31,Female,Urban,0.0,Instant,Americano,17.04,Light,Alternative milk,None,Routine/habit,Intermediate
+52,Female,Urban,2.0,Other,Cappuccino,21.58,Medium,None,None,Social habit,Beginner
+45,Female,Urban,3.0,Instant,Cappuccino,13.17,Medium,Alternative milk,None,Social habit,Expert
+29,Male,Suburban,4.0,Drip,Cappuccino,56.85,Light,Cream,Little,Taste,Intermediate
+53,Male,Urban,2.0,Espresso machine,Other,8.95,Dark,None,None,Social habit,Beginner
+44,Female,Urban,3.0,Instant,Cappuccino,,Light,None,Moderate,Energy boost,Intermediate
+52,Female,Suburban,4.0,Espresso machine,Black,55.01,Dark,Cream,None,Social habit,Beginner
+49,Female,Urban,1.0,Espresso machine,Black,20.07,Light,Cream,Moderate,Energy boost,Beginner
