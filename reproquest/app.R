@@ -59,66 +59,144 @@ server <- function(input, output) {
         actionButton("challenge_1_submit", "Submit")
       )
     } else if (current_challenge() == 3) {
-      # Challenge 2 UI 
-      # ... (rest of your challenge UIs) ...
+      # Challenge 2 UI
+      f7Card(
+        h3("Challenge 2: Exploring Consumption Patterns"),
+        p("You want to visualize how coffee consumption varies across different age groups. What type of plot is most suitable?"),
+        f7Radio(
+          inputId = "challenge_2_choice",
+          label = "Choose your visualization:",
+          choices = c(
+            "A: Scatter plot.",
+            "B: Box plot.",
+            "C: Line graph with smoothed trend."
+          )
+        ),
+        br(),
+        actionButton("challenge_2_submit", "Submit")
+      )
+    } else if (current_challenge() == 4) {
+      # Challenge 3 UI
+      f7Card(
+        h3("Challenge 3:  Identifying Coffee Connoisseurs"),
+        p("You want to identify a group of coffee drinkers who are particularly knowledgeable and passionate about coffee. How do you approach this?"),
+        f7Radio(
+          inputId = "challenge_3_choice",
+          label = "Choose your approach:",
+          choices = c(
+            "A: Use the self-reported 'coffee expertise' level.",
+            "B: Create a 'connoisseur score' based on multiple factors.",
+            "C: Focus on those who spend the most on coffee."
+          )
+        ),
+        br(),
+        actionButton("challenge_3_submit", "Submit")
+      )
+    } else if (current_challenge() == 5) {
+      # Challenge 4 UI
+      f7Card(
+        h3("Challenge 4: Segmenting Coffee Drinkers"),
+        p("You want to segment coffee drinkers into distinct groups based on their habits and preferences. Which clustering method do you choose?"),
+        f7Radio(
+          inputId = "challenge_4_choice",
+          label = "Choose your method:",
+          choices = c(
+            "A: K-means clustering.",
+            "B: Hierarchical clustering."
+          )
+        ),
+        br(),
+        actionButton("challenge_4_submit", "Submit")
+      )
+    } else if (current_challenge() == 6) {
+      # Challenge 5 UI
+      f7Card(
+        h3("Challenge 5:  Analyzing Brewing Method Preferences"),
+        p("You want to understand how brewing method preferences vary across different regions. What analysis do you perform?"),
+        f7Radio(
+          inputId = "challenge_5_choice",
+          label = "Choose your analysis:",
+          choices = c(
+            "A: Compare the proportions of each brewing method in each region.",
+            "B:  Conduct a statistical test to see if the differences are significant.",
+            "C: Visualize the data on a map."
+          )
+        ),
+        br(),
+        actionButton("challenge_5_submit", "Submit")
+      )
     } else if (current_challenge() == 7) {
       # Challenge 6 UI
-      # ... 
-    } else if (current_challenge() == 8) {  
+      f7Card(
+        h3("Challenge 6: Communicating Your Findings"),
+        p("You've discovered that people who drink coffee primarily for the 'energy boost' tend to prefer stronger roasts. How do you present this finding?"),
+        f7Radio(
+          inputId = "challenge_6_choice",
+          label = "Choose how you present the findings:",
+          choices = c(
+            "A: Write a concise summary of the key insight.",
+            "B: Create an infographic with visuals and statistics.",
+            "C: Craft a blog post with a relatable story and personal anecdotes."
+          )
+        ),
+        br(),
+        actionButton("challenge_6_submit", "Submit")
+      )
+    } else if (current_challenge() == 8) {
       # Outcome Summary UI
       f7Card(
         h3("Outcome Summary"),
         
         # Challenge 1 outcome
         if (user_choices$challenge1 == "A") {
-          img(src = "challenge1_plot_a.png", width = "100%")
+          img(src = "www/challenge1_plot_a.png", width = "100%")
         } else if (user_choices$challenge1 == "B") {
-          img(src = "challenge1_plot_b.png", width = "100%")
+          img(src = "www/challenge1_plot_b.png", width = "100%")
         } else if (user_choices$challenge1 == "C") {
-          img(src = "challenge1_plot_c.png", width = "100%")
-        }, # Close the if statement for Challenge 1 outcome
+          img(src = "www/challenge1_plot_c.png", width = "100%")
+        },
         
         # Challenge 2 outcome
         if (user_choices$challenge2 == "A") {
-          img(src = "challenge2_plot_a.png", width = "100%")
+          img(src = "www/challenge2_plot_a.png", width = "100%")
         } else if (user_choices$challenge2 == "B") {
-          img(src = "challenge2_plot_b.png", width = "100%")
+          img(src = "www/challenge2_plot_b.png", width = "100%")
         } else if (user_choices$challenge2 == "C") {
-          img(src = "challenge2_plot_c.png", width = "100%")
-        }, # Close the if statement for Challenge 2 outcome
+          img(src = "www/challenge2_plot_c.png", width = "100%")
+        },
         
         # Challenge 3 outcome
         if (user_choices$challenge3 == "A") {
-          img(src = "challenge3_plot_a.png", width = "100%")
+          img(src = "www/challenge3_plot_a.png", width = "100%")
         } else if (user_choices$challenge3 == "B") {
-          img(src = "challenge3_plot_b.png", width = "100%")
+          img(src = "www/challenge3_plot_b.png", width = "100%")
         } else if (user_choices$challenge3 == "C") {
-          img(src = "challenge3_plot_c.png", width = "100%")
+          img(src = "www/challenge3_plot_c.png", width = "100%")
         },
         
         # Challenge 4 outcome
         if (user_choices$challenge4 == "A") {
-          img(src = "challenge4_plot_a.png", width = "100%")
+          img(src = "www/challenge4_plot_a.png", width = "100%")
         } else if (user_choices$challenge4 == "B") {
-          img(src = "challenge4_plot_b.png", width = "100%")
+          img(src = "www/challenge4_plot_b.png", width = "100%")
         },
         
         # Challenge 5 outcome
         if (user_choices$challenge5 == "A") {
-          img(src = "challenge5_plot_a.png", width = "100%")
+          img(src = "www/challenge5_plot_a.png", width = "100%")
         } else if (user_choices$challenge5 == "B") {
-          img(src = "challenge5_plot_b.png", width = "100%")
+          img(src = "www/challenge5_plot_b.png", width = "100%")
         } else if (user_choices$challenge5 == "C") {
-          img(src = "challenge5_plot_c.png", width = "100%")
+          img(src = "www/challenge5_plot_c.png", width = "100%")
         },
         
         # Challenge 6 outcome
         if (user_choices$challenge6 == "A") {
-          img(src = "challenge6_plot_a.png", width = "100%")
+          img(src = "www/challenge6_plot_a.png", width = "100%")
         } else if (user_choices$challenge6 == "B") {
-          img(src = "challenge6_plot_b.png", width = "100%")
+          img(src = "www/challenge6_plot_b.png", width = "100%")
         } else if (user_choices$challenge6 == "C") {
-          img(src = "challenge6_plot_c.png", width = "100%")
+          img(src = "www/challenge6_plot_c.png", width = "100%")
         }
       ) # Close the f7Card for the outcome summary
     } # Close the outermost else if for the outcome summary
