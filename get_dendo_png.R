@@ -1,15 +1,16 @@
-# qual colors from https://personal.sron.nl/~pault/#sec:qualitative
-Tol_muted <- c("#88CCEE", "#44AA99", "#117733", "#332288", "#DDCC77", "#999933", "#CC6677", "#882255", "#AA4499", "#DDDDDD")
+# settings ####
 
-#' Read and Prepare Survey Responses COFFEE
-#'
-#' @param survey_csv path to the csv file downloaded from the survey
-#' @param  skinny logical indicating if only essential variables to be kept, defaults to TRUE
-#' @param  date minimum date in a string with a format `YYYY-MM-DD` that is going to be used to filter the survey entries to be later or equal to
-#' @param  time minimum time in string with a format `HH:MM` that is going to be used to filter the survey entries to be later or equal to
+library(tidyverse)
+library(shinythemes)
+library(janitor)
+library(shiny)
+library(ggraph)
+library(igraph)
+
+setwd("C:/Projects/reproquest/reproquest_results")
 
 prepare_survey_coffee <- function(survey_csv, skinny = TRUE) {
-  survey <- readr::read_csv("data/coffee_survey1.csv", show_col_types = FALSE) %>%
+  survey <- readr::read_csv(survey_csv, show_col_types = FALSE) %>%
     janitor::clean_names() %>%
     dplyr::select(-email, -browser, -os, -referrer) %>%
     dplyr::rename(
@@ -227,3 +228,27 @@ plt_dendro <- function(df) { # df will be time_data()
   p
 }
 
+
+
+
+####################################################################################
+d <- prepare_survey_coffee("data/coffee_survey1.csv", skinny = FALSE)
+d$date <- mdy(d$date)
+
+d <- d %>% filter(date > "2024-10-08")
+
+# check if there are duplicated names and fix it
+n_occur <- data.frame(table(d$nickname))
+dupl_name <- n_occur[n_occur$Freq > 1,]
+
+for (i in 1:nrow(dupl_name)) {
+  row_id <- which(d$nickname == dupl_name$Var1[i])
+  create_unique <- as.character(dupl_name[i,"Var1"])
+  create_unique <- paste(create_unique, c(1:length(row_id)), sep="_")
+  
+  d$nickname[row_id] <- create_unique
+}
+
+
+plt_dendro(d)
+ggsave("data/plot.png")
