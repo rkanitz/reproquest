@@ -3,8 +3,7 @@ library(qrcode)
 
 
 # Define the URL
-my_url_survey <- "https://s.surveyplanet.com/ef64jql9"
-my_url_result <- "https://rkanitz.shinyapps.io/reproquest_results/"
+my_url <- "https://rkanitz.shinyapps.io/reproquest/"
 
 # Generate the QR code
 qr_out_survey <- qr_code(my_url_survey)
